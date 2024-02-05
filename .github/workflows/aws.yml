@@ -32,12 +32,12 @@ on:
 
 env:
   AWS_REGION: us-east-1                  # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: newwali          # set this to your Amazon ECR repository name
-  ECS_SERVICE: maza_service                 # set this to your Amazon ECS service name
-  ECS_CLUSTER: vaishu                # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: my_task-revision1.json # set this to the path to your Amazon ECS task definition
+  ECR_REPOSITORY: new_repository          # set this to your Amazon ECR repository name
+  ECS_SERVICE: new_service                 # set this to your Amazon ECS service name
+  ECS_CLUSTER: new_cluster                # set this to your Amazon ECS cluster name
+  ECS_TASK_DEFINITION: new_taskdefination-revision1 (1).json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: new_container          # set this to the name of the container in the
+  CONTAINER_NAME: new1_container         # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
